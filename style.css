@@ -1,0 +1,63 @@
+body {
+	background: white;
+    color: rgb(83, 31, 81);
+    font-family: initial;
+    text-align: center;
+    font-size: 15px;
+
+}
+	
+h1 {
+	color:rgb(177 123 146 / 62%);
+    font-family: fantasy;
+    font-weight: 100;
+    letter-spacing: 5px;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 {
+	color: beige;
+	font-family: fantasy;
+	font-size: 20px;
+	font-weight: 50;
+	text-transform: uppercase;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(83, 31, 81);
+	font-weight: 600;
+}
+
+a:hover {
+color: purple;
+}
+
+div {
+	background:rgb(177 123 146 / 62%);
+	margin: 30px;
+	padding: 10px 20px;
+	box-shadow: 0px 2px 10px; 
+	border-radius: 20px;
+}
+
+
+img {
+	border-radius: 50%;
+}
+
+.container {}
+
+@media (max-width: 760px) {
+ .container{
+ 	width: 600 px;
+ }
+}
+
+@media (max-width: 500px) {
+ .container{
+ 	width: 400px;
+ }
+}
